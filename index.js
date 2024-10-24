@@ -28,3 +28,9 @@ app.use("/api/user", userRoutes);
 
 const currencyRoutes = require("./routes/Currency");
 app.use("/api/currency", currencyRoutes);
+
+const groupRoutes = require("./routes/Group");
+app.use("/api/group", groupRoutes);
+
+const transactionRoutes = require("./routes/Transaction");
+app.use("/api/transaction", transactionRoutes);
